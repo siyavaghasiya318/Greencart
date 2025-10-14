@@ -136,7 +136,7 @@ const Home = () => {
       </div>
 
 
-      <div className='mt-30 text-center '>
+      <div className='mt-30 text-center px-5 '>
         <div className='lg:text-3xl md:text-2xl sm:text-xl font-bold text-[#364153] mb-2'>Never Miss a Deal!</div>
         <div className='text-gray-500 lg:text-[16px] md:text-[14px] sm:text-[12px]'>Subscribe to get the latest offers, new arrivals, and exclusive discounts</div>
       </div>
@@ -154,7 +154,7 @@ const Home = () => {
           <ul className='text-sm text-gray-600 '>
 
             <li className='text-gray-900 text-[15px] mb-5 font-bold'>Quick Links</li>
-            <li>Home</li>
+            <li className='hover:underline'>Home</li>
             <li>Best Sellers</li>
             <li>Offers & Deals</li>
             <li>Contact Us</li>
