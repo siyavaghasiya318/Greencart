@@ -29,9 +29,9 @@ const Cart = () => {
                                 <div className='flex'> 
                                     <div>
                                     <div className='text-gray-500 font-semibold text-[14px] md:text-[16px]'>Product detail</div>
-                                    <div className='w-[80px] h-[80px] border border-gray-400 mt-5'><img className='w-full h-full' src={item.img[0]} alt="" /></div>
+                                    <div className='w-[80px] h-[80px] border border-gray-400 mt-3 md:mt-5'><img className='w-full h-full' src={item.img[0]} alt="" /></div>
                                     </div>
-                                    <div className=' ms-2 text-sm  text-gray-600 pt-10 text-[13px] md:text-[14px]'>
+                                    <div className=' ms-2 text-sm  text-gray-600 mt-15 text-[13px] md:text-[14px]'>
                                         <div>{item.categories}</div>
                                         <div>{item.name}</div>
                                         <div>{item.price}$</div>
@@ -71,7 +71,7 @@ const Cart = () => {
          
         
             
-                <div className='pt-30 mx-30'>
+                <div className='pt-30 mx-18'>
             <div className='border border-gray-400 bg-gray-50 text-gray-600 '>
                 <div className='p-5'>
                     <div className='lg:text-xl text-md sm:text-lg md:text-xl text-gray-700 font-semibold'>Order Summary</div>
